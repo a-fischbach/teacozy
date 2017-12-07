@@ -1,0 +1,144 @@
+*{
+  font-family: helvetica;
+  text-align: center;
+  color:seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+
+body{
+  font-size: 22px;
+  margin: 0px;
+}
+
+/*Header*/
+.header-container{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+}
+
+.header{
+  height: 69px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img{
+  height: 50px;
+}
+
+.header span{
+  margin: 20px 0px 0px 20px;
+  text-decoration: underline;
+}
+
+
+/*Main Container*/
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*Our Mission*/
+.mission{
+  margin-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner{
+  width: 100%;
+}
+
+
+/*Tea of the Month*/
+.totm{
+  margin-top: 69px;
+  width: 1000px;
+
+}
+
+.totm h4{
+  margin: 0px;
+  padding: 5px;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product{
+  padding: 5px;
+}
+
+.product img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+/*Locations*/
+.locations-container{
+  margin-top: 69px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations-container h2{
+  background-color: transparent;
+  margin: 15px
+}
+
+.locations{
+  display: flex;
+  background-color: transparent;
+}
+
+.location{
+  width: 300px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.location span{
+  padding: 15px;
+}
+
+
+/*Footer*/
+.contact{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact h5{
+  margin: 0px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
